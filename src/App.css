@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.BagsList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #fafafa;
+}
+
+.BagCard {
+  margin: 2em;
+  width: 33em;
+  font-size: small;
+}
+
+.BagCardText {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.BagCard img {
+  width: inherit;
+  background-color:red;
+}
+
+.BagColors {
+  position: relative;
+  top: 2.3em;
+  left: 28.5em;
+  width: 4.5em;
+  text-align: center;
+  background-color: #fafafa;
+}
